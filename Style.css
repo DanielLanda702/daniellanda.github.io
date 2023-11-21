@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/NewHeaderOpt.Image.jpg");
+    background-size: cover;
+    background-color: white;
+    font-family: sans-serif, Arial;
+    margin: auto;
+}
+
+
+#container {
+    width: 1366px;
+    height: 900px;
+    margin left: auto;
+    margin-right: auto;
+    background-color: none;  
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    margin: -20px;
+
+}
+
+h3 {
+  font-size: 12px;
+    color: black;
+    padding: 0;
+    margin: 5px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 25px;
+}
+
+.header {
+    color: white;
+    text-align: left;
+}
+
+.content {
+    padding: 0;
+       
+}
+.topnav {
+    overflow: hidden;
+    background-color:lightblue;
+    width: 1680px;
+    height: 80px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.topnav li{
+    list-style:none;
+}
+
+.topnav ul{
+    float: right;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;   
+}
+
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+    clear: both; 
+    margin-top: -650px;
+}
+
+.flex-container1 > div {
+  color: white;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size:27px;  
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: none;
+    justify-content: center;
+    clear: both;   
+}
+
+.flexcontainer2 > div {
+    background-color: azure;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;  
+}
+
+.footer {
+    text-align: center;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: darkgrey;
+    justify-content: center;
+    clear: both;   
+}
+
+
+.flex-container3 > div > li {
+    color: black;
+}
+
+.flex-container3 > div > div > li {
+    color: black;
+}
+
+
+.flex-container3 > div {
+    background-color: lightblue;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+
+     
+}
+
+.flex-container3 > div > h1 {
+    background-color: lightblue;
+    color: black;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding left: 20px;
+    padding bottom: 30px;
+     
+}
+
+.flex-container3 > div > h2 {
+    background-color: lightblue;
+    color: grey;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding left: 20px;
+    padding bottom: 30px;    
+}
+
+.flex-container3 > div > h3 {
+    background-color: lightblue;
+    color: lightpink;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding left: 20px;
+    padding bottom: 30px;    
+}
+
+.flex-container3 > div > div > h4 {
+    background-color: lightblue;
+    color: lightcoral;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding left: 20px;
+    padding bottom: 30px;    
+}
+
+.flex-container3 > div > div > h5 {
+    background-color: lightblue;
+    color: black;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding left: 20px;
+    padding bottom: 30px;    
+}
+
+
+
+
+     
+input[type=text], select {
+    width: 200px;
+    height: 25px;
+    padding: 12px, 20px;
+    text-align: center;
+    color: lightgray;
+    margin: 15px;
+    display: inline-block;
+    border: 1px none;
+    border-radius: 10px;
+    box-sizing: border-box;        
+}
+   
+
+input[type=submit], select {
+    width: 719px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 1000px, 1000px;
+    margin: 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+   
+
+input[type=submit];hover {
+    background-color: darkblue;                     
+ }
+        
+h4 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    height: 20px;
+    width: 1000px
+    
+}
+
+
+
+
+
