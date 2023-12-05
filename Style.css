@@ -1,10 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url("../IMAGES/NewHeaderOpt.Image.jpg");
+    background-image: url("../IMAGES/juicesnew.jpg");
     background-size: cover;
     background-color: white;
     font-family: sans-serif, Arial;
+    width: 1400px;
+    height: 935px;
     margin: auto;
 }
 
@@ -134,8 +136,8 @@ h1, h2, h3 {
 .flex-container3 {
     display: flex;
     background-color: darkgray;
-    justify-content: center;
-    width: 1600px  
+    justify-content: space-evenly;
+    width: 1600px;  
 }
 
 
