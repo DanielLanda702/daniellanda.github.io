@@ -5,9 +5,10 @@ body {
     background-size: cover;
     background-color: white;
     font-family: sans-serif, Arial;
-    width: 1400px;
-    height: 935px;
-    margin: auto;
+    width: 1300px;
+    height: 920px;
+    margin: 0px;
+    margin-top: 0px;
 }
 
 
@@ -29,9 +30,15 @@ display: flex;
 
 
 h2 {
-    color: black;
-    font-size: 20px;
-    margin: -20px;
+    color: white;
+    font-size: 15px;
+    height: 375px;
+    width: 200px;
+    display: block;
+    padding: 100px;
+    background-color: lightblue;
+    text-align: top;
+
 
 }
 
@@ -96,20 +103,41 @@ h1, h2, h3 {
 
 
 .flex-container1 {
-    display: flex;
+    display:inline-flex;
+    width: 1600px;
+    height: 200px;
     justify-content: center;
     clear: both; 
-    margin-top: -650px;
+    margin-top: -200px;
 }
 
 .flex-container1 > div {
   color: white;
-    width: 300px;
-    height: 100px;
-    margin: 10px;
+    width: 150px;
+    height: 20px;
+    margin: 20px;
+    margin-left: 25px;
+    margin-top: -200px;
+    margin-right: 95px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 200px; 
+    display: block;
+
+}
+
+.flex-container9 {
+  color: white;
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 95px;
     text-align: center;
     line-height: 25px;
-    font-size: 200px;  
+    font-size: 400px; 
+    display: block;
 }
 
 .flex-container2 {
@@ -253,7 +281,7 @@ input[type=submit], select {
     width: 719px;
     height: 50px;
     background-color: lightblue;
-    padding: 1000px, 1000px;
+    padding: 1000px,1000px;
     margin: 20px;
     display: inline-block;
     border: none;
@@ -274,22 +302,18 @@ h4 {
     margin: 20px;
     color: black;
     height: 20px;
-    width: 1000px   
+    width: 1000px;  
 }
 
 #wowslider-container1 .ws_images {
-    position: fixed;
-    left: 800px;
-    top; 100px;
-    height: 2000px;
-    width: 1490px;
-    max-height: 200px;
-    max-width: 100%;
-    vertical-align: center;
-    border: none;
-    overflow: hidden;
-    margin: fixed;
-    
+    margin-top: -600px;
+    margin left: none;
+    margin right: 20px;
+    margin-bottom: -1200px;
+    height: 10px;
+    width: 1190px;
+    display:inherit;
+   
 }
     
 
