@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url("NewHeaderOpt.Image.jpg");
+    background-image: url("../IMAGES/NewHeaderOpt.Image.jpg");
     background-size: cover;
     background-color: white;
     font-family: sans-serif, Arial;
@@ -10,12 +10,21 @@ body {
 
 
 #container {
-    width: 1366px;
+    width: 100px;
     height: 900px;
     margin left: auto;
     margin-right: auto;
     background-color: none;  
 }
+
+
+h1 {
+ color: white;
+font-size: 40px;
+display: flex;
+
+}
+
 
 h2 {
     color: black;
@@ -48,6 +57,7 @@ h1, h2, h3 {
 .topnav {
     overflow: hidden;
     background-color:lightblue;
+    position: absolute;
     width: 1680px;
     height: 80px;
 }
@@ -77,7 +87,7 @@ h1, h2, h3 {
 .topnav ul li ul {
     display: none;
     position: absolute;
-    background-color: darkgrey;
+    background-color: grey;
     padding: 10px;
     border-radius: 0px 0px 4px 4px;   
 }
@@ -92,11 +102,12 @@ h1, h2, h3 {
 
 .flex-container1 > div {
   color: white;
-    width: 500px;
+    width: 300px;
+    height: 100px;
     margin: 10px;
     text-align: center;
     line-height: 25px;
-    font-size:27px;  
+    font-size: 200px;  
 }
 
 .flex-container2 {
@@ -122,9 +133,9 @@ h1, h2, h3 {
 
 .flex-container3 {
     display: flex;
-    background-color: darkgrey;
+    background-color: darkgray;
     justify-content: center;
-    clear: both;   
+    width: 1600px  
 }
 
 
@@ -134,13 +145,15 @@ h1, h2, h3 {
 
 .flex-container3 > div > div > li {
     color: black;
+    text-align: center;
+    
 }
 
 
 .flex-container3 > div {
-    background-color: lightblue;
+    background-color: lightcyan;
     color: white;
-    width: 100%;
+    width: 470px;
     margin: 10px;
     text-align: center;
     line-height: 25px;
@@ -154,10 +167,10 @@ h1, h2, h3 {
 .flex-container3 > div > h1 {
     background-color: lightblue;
     color: black;
-    width: 100%;
+    width: 390px;
     margin: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 10px;
     font-size: 20px;
     padding left: 20px;
     padding bottom: 30px;
@@ -167,10 +180,11 @@ h1, h2, h3 {
 .flex-container3 > div > h2 {
     background-color: lightblue;
     color: grey;
-    width: 100%;
+    width: 390px;
+    height: 8px;
     margin: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 10px;
     font-size: 20px;
     padding left: 20px;
     padding bottom: 30px;    
@@ -179,10 +193,11 @@ h1, h2, h3 {
 .flex-container3 > div > h3 {
     background-color: lightblue;
     color: lightpink;
-    width: 100%;
+    width: 390px;
+    height: 8px;
     margin: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 10px;
     font-size: 20px;
     padding left: 20px;
     padding bottom: 30px;    
@@ -191,10 +206,11 @@ h1, h2, h3 {
 .flex-container3 > div > div > h4 {
     background-color: lightblue;
     color: lightcoral;
-    width: 100%;
+    width: 400px;
+    height: 15px;
     margin: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 10px;
     font-size: 20px;
     padding left: 20px;
     padding bottom: 30px;    
@@ -203,13 +219,14 @@ h1, h2, h3 {
 .flex-container3 > div > div > h5 {
     background-color: lightblue;
     color: black;
-    width: 100%;
+    width: 440px;
+    height: 50px;
     margin: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 50px;
     font-size: 20px;
     padding left: 20px;
-    padding bottom: 30px;    
+    padding bottom: 30px;     
 }
 
 
@@ -217,7 +234,7 @@ h1, h2, h3 {
 
      
 input[type=text], select {
-    width: 200px;
+    width: 250px;
     height: 25px;
     padding: 12px, 20px;
     text-align: center;
@@ -226,7 +243,7 @@ input[type=text], select {
     display: inline-block;
     border: 1px none;
     border-radius: 10px;
-    box-sizing: border-box;        
+    box-sizing: border-box;
 }
    
 
@@ -235,7 +252,7 @@ input[type=submit], select {
     height: 50px;
     background-color: lightblue;
     padding: 1000px, 1000px;
-    margin: 15px;
+    margin: 20px;
     display: inline-block;
     border: none;
     border-radius: 20px;
@@ -243,19 +260,39 @@ input[type=submit], select {
 }
    
 
-input[type=submit];hover {
-    background-color: darkblue;                     
+input[type=submit]; hover {
+    background-color: whitesmoke; 
+
  }
         
 h4 {
     text-align: center;
+    line-height: 20px;
     padding: 20px;
     margin: 20px;
     color: black;
     height: 20px;
-    width: 1000px
+    width: 1000px   
+}
+
+#wowslider-container1 .ws_images {
+    position: fixed;
+    left: 800px;
+    top; 100px;
+    height: 2000px;
+    width: 1490px;
+    max-height: 200px;
+    max-width: 100%;
+    vertical-align: center;
+    border: none;
+    overflow: hidden;
+    margin: fixed;
     
 }
+    
+
+
+   
 
 
 
