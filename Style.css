@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url("../IMAGES/juicesnew.jpg");
+    background-image: url("juicesnew.jpg");
     background-size: cover;
     background-color: white;
     font-family: sans-serif, Arial;
